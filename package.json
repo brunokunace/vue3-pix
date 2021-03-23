@@ -8,7 +8,9 @@
     "prepare": "yarn run build",
     "postinstall": "yarn run build"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/vue-pix.umd.js",
   "module": "./dist/vue-pix.es.js",
   "exports": {
@@ -33,5 +35,23 @@
     "polycrc": "^1.0.1",
     "qrcode": "^1.4.4",
     "vue": "^3.0.5"
-  }
+  },
+  "description": "A Vue 3 Pix Component for create barcodes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunokunace/vue3-pix.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vuejs",
+    "pix",
+    "barcode"
+  ],
+  "author": "Brun00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunokunace/vue3-pix/issues"
+  },
+  "homepage": "https://github.com/brunokunace/vue3-pix#readme"
 }
