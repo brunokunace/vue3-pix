@@ -1,6 +1,6 @@
 {
   "name": "vue3-pix",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "scripts": {
     "dev": "TARGET_MODE=app vite",
     "build": "vite build",
