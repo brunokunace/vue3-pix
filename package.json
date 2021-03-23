@@ -1,12 +1,11 @@
 {
   "name": "vue3-pix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "TARGET_MODE=app vite",
     "build": "vite build",
     "serve": "TARGET_MODE=app vite preview",
-    "prepare": "yarn run build",
-    "postinstall": "yarn run build"
+    "prepare": "yarn run build"
   },
   "files": [
     "dist"
