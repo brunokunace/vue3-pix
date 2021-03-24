@@ -1,6 +1,6 @@
 {
   "name": "vue3-pix",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "scripts": {
     "dev": "TARGET_MODE=app vite",
     "build": "vite build",
@@ -10,12 +10,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-pix.umd.js",
-  "module": "./dist/vue-pix.es.js",
+  "main": "./dist/vue3-pix.umd.js",
+  "module": "./dist/vue3-pix.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-pix.es.js",
-      "require": "./dist/vue-pix.umd.js"
+      "import": "./dist/vue3-pix.es.js",
+      "require": "./dist/vue3-pix.umd.js"
     }
   },
   "peerDependencies": {
@@ -35,7 +35,7 @@
     "qrcode": "^1.4.4",
     "vue": "^3.0.5"
   },
-  "description": "A Vue 3 Pix Component for create barcodes",
+  "description": "A Vue 3 Pix Component for create qrcodes",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brunokunace/vue3-pix.git"
